@@ -20,7 +20,7 @@ To turn off annotations switch `\remarksONtrue` to `\remarksONfalse` in `setting
 
 ## License
 
-The latex template for this thesis was cloned from [fwalch/tum-thesis-latex][template-url]
+The latex template for this thesis was cloned from [fwalch/tum-thesis-latex][template-url]. Changes were made, reduced the repo to the bare minimum (according to me) to create a latex pdf.  
 
 [![Creative Commons License][license-image]][license]
 
