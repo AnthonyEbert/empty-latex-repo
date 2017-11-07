@@ -1,0 +1,12 @@
+/build/*
+!/build/.gitkeep
+
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.toc
+main.pdf
+*.log
+.Rproj.user
+*.synctex*
