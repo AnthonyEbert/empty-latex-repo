@@ -1,5 +1,24 @@
 # empty-latex-repo
 
+## Instructions
+
+The output files .pdf and other files are outputted to the build directory. 
+
+To build the pdf
+
+```{bash}
+> make pdf
+```
+
+To clean the build directory. 
+
+```{bash}
+> make clean
+```
+
+To turn off annotations switch `\remarksONtrue` to `\remarksONfalse` in `settings.tex`. 
+
+## License
 
 The latex template for this thesis was cloned from [fwalch/tum-thesis-latex][template-url]
 
