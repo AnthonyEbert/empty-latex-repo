@@ -10,3 +10,5 @@ main.pdf
 *.log
 .Rproj.user
 *.synctex*
+
+Zotero.bib
