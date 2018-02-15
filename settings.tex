@@ -26,6 +26,14 @@
 \usepackage{natbib}
 \bibliographystyle{apalike}
 
+%%%%%%% From JSS Paper %%%%%%%%%%%%%%----------
+\let\proglang=\textsf 
+\let\kw=\textsf
+\newcommand{\pkg}[1]{{\fontseries{b}\selectfont #1}}
+\newcommand{\E}{\mathsf{E}}
+\newcommand{\VAR}{\mathsf{VAR}}
+\newcommand{\COV}{\mathsf{COV}}
+\newcommand{\Prob}{\mathsf{P}}
 
 % Annotations ------------------
 
@@ -39,13 +47,9 @@
 % Change \remarkAce to \remark<yourname> e.g. if your name is John write \remarkJohn . I mean, you don't have to?
 
 \newcommand{\remarkAce}[1]{\makeremark{blue}{#1}}
-\newcommand{\remarkRito}[1]{\makeremark{red}{#1}}
 \newcommand{\remarkKerrie}[1]{\makeremark{orange}{#1}}
 \newcommand{\remarkFabrizio}[1]{\makeremark{green}{#1}}
-\newcommand{\remarkMira}[1]{\makeremark{purple}{#1}}
 
 \newcommand{\footAce}[1]{\makefoot{blue}{#1}}
-\newcommand{\footRito}[1]{\makefoot{red}{#1}}
 \newcommand{\footKerrie}[1]{\makefoot{orange}{#1}}
 \newcommand{\footFabrizio}[1]{\makefoot{green}{#1}}
-\newcommand{\footMira}[1]{\makefoot{purple}{#1}}
